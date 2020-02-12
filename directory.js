@@ -1,8 +1,3 @@
-/*
-https://randomuser.me/api/portraits/med/men/17.jpg
-https://randomuser.me/api/portraits/med/women/17.jpg
-*/
-
 function toggleForm() {
     let form = document.getElementById("form");
 
@@ -56,11 +51,6 @@ function add() {
     newArtist = addInfo(info)
 
     artists.appendChild(newArtist);
-
-    for (var key in localStorage) {
-        console.log(key + ':' + localStorage[key]);
-    }
-    console.log(localStorage)
 }
 
 
